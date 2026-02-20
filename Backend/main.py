@@ -5,6 +5,21 @@ from database import SessionLocal
 from models import Produto
 from scraper import coletar_produtos
 
+# para rodar o back end entrem no terminal 
+# e digitem o comando "uvicorn main:app --reload", 
+# isso vai iniciar o servidor do fastapi, 
+# e ele vai ficar rodando, entao para acessar a aplicação, 
+# basta abrir o navegador e digitar "http://localhost:8000", 
+# isso vai abrir a aplicação, e para atualizar os produtos, 
+# basta clicar no botão "Atualizar Produtos", 
+# isso vai chamar a função "atualizar" que vai coletar os produtos do mercado livre e salvar no banco de dados,
+#e para listar os produtos,
+# basta clicar no botão "Listar Produtos", 
+# isso vai chamar a função "listar_produtos" que vai buscar os produtos no banco de dados e mostrar na tela.
+
+
+
+
 
 # Criando aplicação
 app = FastAPI()
