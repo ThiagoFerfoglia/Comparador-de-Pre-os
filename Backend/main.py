@@ -5,6 +5,9 @@ from database import SessionLocal
 from models import Produto
 from scraper import coletar_produtos
 
+#antes certifiquem-se que estao no diretorio do backend, para isso, no terminal, digitem "cd Backend",
+#e depois rodem o comando abaixo
+
 # para rodar o back end entrem no terminal 
 # e digitem o comando "uvicorn main:app --reload", 
 # isso vai iniciar o servidor do fastapi, 
@@ -16,6 +19,8 @@ from scraper import coletar_produtos
 #e para listar os produtos,
 # basta clicar no botão "Listar Produtos", 
 # isso vai chamar a função "listar_produtos" que vai buscar os produtos no banco de dados e mostrar na tela.
+
+#cansei de escrever essa buceta
 
 
 
